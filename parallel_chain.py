@@ -54,7 +54,7 @@ def analyze_pros(story):
             ),
         ]
     )
-    return pros_template.format_prompt(story=story) 
+    return pros_template.format_prompt(story=story)  
  
 
 # Define cons analysis step
