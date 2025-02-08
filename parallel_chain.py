@@ -16,9 +16,15 @@ GOOGLE_API_KEY=os.getenv("GOOGLE_API_KEY")
 #LANGCHAIN_TRACING_V2=os.getenv("LANGCHAIN_TRACING_V2")
 LANGSMITH_API_KEY=os.getenv("LANGSMITH_API_KEY")
 
+OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
+OPENAI_API_BASE=os.getenv("OPENAI_API_BASE")
+
 #os.environ["LANGCHAIN_TRACING_V2"]=LANGCHAIN_TRACING_V2
 os.environ["LANGSMITH_API_KEY"]=LANGSMITH_API_KEY
 os.environ["GOOGLE_API_KEY"]=GOOGLE_API_KEY
+
+os.environ["OPENAI_API_KEY"]=OPENAI_API_KEY
+os.environ["OPENAI_API_BASE"]=OPENAI_API_BASE
 # Create a ChatOpenAI model
 #model = ChatOpenAI(model="gpt-4o")
 #model = ChatGoogleGenerativeAI(model="gemini-pro", convert_system_message_to_human=True)
