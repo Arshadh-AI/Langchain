@@ -57,7 +57,7 @@ def analyze_pros(story):
     return pros_template.format_prompt(story=story)  
  
 
-# Define cons analysis step
+# Define cons analysis 
 def analyze_cons(story):
     cons_template = ChatPromptTemplate.from_messages(
         [
