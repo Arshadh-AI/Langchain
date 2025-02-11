@@ -7,7 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 #from langchain.llms import OpenAI
 from langchain_openai import ChatOpenAI
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ["OPENAI_API_BASE"] = "https://openrouter.ai/api/v1"
 
 load_dotenv()
